@@ -1,5 +1,6 @@
 intNum = 23 #integer
 floatNum = 989.22 #float
+nullVal = None #this is the null or undefined value in python
 sumVariable = intNum + floatNum
 print (sumVariable) #show the output
 

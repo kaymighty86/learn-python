@@ -18,4 +18,4 @@ strVariable.capitalize() #returns the string but the first character is upper ca
 strVariable.find("me") #returns the index of the first instance of a string in the string
 strVariable.replace("me","you")#retuns a string where all the instances of the string given is replaced with the other string provided
 strVariable.split(" ")#retuns an array of strings of all character between the seperator
-
+" ".join(["I","am","him"]) #returns "I am him" i.e. returns a string that joins elements of the given array together in one string using the initiator string as the seperator (the reverse of split())
