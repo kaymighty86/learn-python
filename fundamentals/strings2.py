@@ -19,3 +19,5 @@ strVariable.find("me") #returns the index of the first instance of a string in t
 strVariable.replace("me","you")#retuns a string where all the instances of the string given is replaced with the other string provided
 strVariable.split(" ")#retuns an array of strings of all character between the seperator
 " ".join(["I","am","him"]) #returns "I am him" i.e. returns a string that joins elements of the given array together in one string using the initiator string as the seperator (the reverse of split())
+
+trimmed_string = "   hello i want to play   ".strip() #remove leading and traiing whitespace and return the adjusted string (same as the trim() function in other prog languages)
