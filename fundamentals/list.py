@@ -20,6 +20,10 @@ newList.insert(3,90) #adds the new element 90 to index 3 and pushes the rest of 
 print(newList)
 newList.extend([0,6,32,1]) #spreads the values of the provided array param to the end of the list
 
+newList2 =[34,56,23]
+concacted_list = newList + newList2 #this will concatenate the two lists together into one
+print(concacted_list)
+
 #REMOVING VALUE
 lastEl = newList.pop() #deletes the last element from the list and returns the value
 thirdEl = newList.pop(2) #deletes the element with the given index from the list and returns the value
